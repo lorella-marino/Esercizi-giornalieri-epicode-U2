@@ -475,7 +475,8 @@ footer div i {
   transform: translate(-50%, -50%);
 }
 
-.far.fa-plus-square, .far.fa-calendar-alt {
+.far.fa-plus-square,
+.far.fa-calendar-alt {
   color: #3f6bca;
   position: absolute;
   top: 50%;
