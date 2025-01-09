@@ -224,13 +224,7 @@ main {
   border: 4px solid #00a0c6;
   outline: 4px solid #a02571;
   padding: 3px;
-  position: absolute;
-}
-
-.primoP {
-  position: relative;
-  left: 90px;
-  padding-right: 18%;
+  float: left;
 }
 
 ul,
