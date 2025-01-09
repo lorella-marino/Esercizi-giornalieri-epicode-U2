@@ -1,0 +1,133 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #763d00;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #fef7e2;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  height: 110px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0 18px;
+}
+
+nav div {
+  background-color: #ffdf7f;
+  border-radius: 50px;
+  width: 20%;
+  height: 40px;
+  align-content: center;
+  margin: auto 3px;
+}
+
+.shop {
+  width: 30%;
+  height: 80px;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+.shop p {
+  margin-top: 5px;
+}
+
+main {
+  padding: 10px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 20px 10px;
+}
+
+.card {
+  background-color: #fef7e2;
+  width: 45%;
+  height: 60%;
+  border-radius: 40px;
+  text-align: center;
+  margin: 10px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 50px 50px 0 0;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.bio p {
+  font-size: 0.7rem;
+}
+
+.bio {
+  line-height: 1rem;
+  flex-direction: column;
+}
+
+.card div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin: 7px 0;
+}
+
+button {
+  background-color: #ffdf7f;
+  width: 70%;
+  height: 25px;
+  border-radius: 50px;
+  border: none;
+  color: #763d00;
+  font-size: 0.7rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+aside div {
+  background-color: #fef7e2;
+  width: 99%;
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+aside div img {
+  width: 100%;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 1.2rem;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+aside div p {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  text-align: left;
+  margin-bottom: 20px;
+}
