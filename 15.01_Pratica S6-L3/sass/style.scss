@@ -1,0 +1,70 @@
+@import "./partials/reset";
+@import "./partials/animations";
+@import "./partials/colors";
+@import "./partials/fonts";
+@import "./partials/mixins";
+@import "./partials/spacings";
+@import "./partials/buttons";
+
+body {
+  font-family: $font-sans;
+  font-family: $font-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding-inline: 2rem;
+
+  nav {
+    ul {
+      li {
+        display: inline-block;
+      }
+    }
+  }
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+  gap: 20px;
+  background-color: $purple;
+  color: white;
+  .content-area {
+    max-width: 600px;
+  }
+  .img-area {
+    img {
+      max-width: 400px;
+      @include floating(10px, 0 6px 10px rgb(0 0 0 / 40%), 2px solid black);
+    }
+  }
+}
+
+.grid-section {
+  padding: 50px;
+  justify-content: center;
+  @include grid(3);
+  div {
+    margin: 10px;
+    img {
+      max-width: 100%;
+      @include floating(6px, 0 3px 10px rgb(0 0 0 / 20%));
+    }
+  }
+}
