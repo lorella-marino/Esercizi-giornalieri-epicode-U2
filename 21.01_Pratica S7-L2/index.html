@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      form {
+        width: max-content;
+        margin: auto;
+        margin-top: 5rem;
+      }
+
+      form > div {
+        margin-bottom: 1rem;
+      }
+
+      label {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form id="formRegistrazione">
+      <div id="savedValue"></div>
+      <div>
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" />
+      </div>
+
+      <button type="button" id="salva">Salva</button>
+      <button type="button" id="rimuovi">Rimuovi</button>
+    </form>
+
+    <div id="contatore">Tempo trascorso: 0 secondi</div>
+
+    <script src="webstorage.js"></script>
+  </body>
+</html>
